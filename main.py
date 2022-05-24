@@ -18,7 +18,7 @@ def oblicz():
 
         elif(len(wymiary) == 3):
             pol_obw = 0.5*(wymiary[0]+wymiary[1]+wymiary[2])
-            trojkat = math.sqrt(pol_obw*(pol_obw-wymiary[0])*(pol_obw-wymiary[1])*(pol_obw-wymiary[0]))
+            trojkat = math.sqrt(pol_obw*(pol_obw-wymiary[0])*(pol_obw-wymiary[1])*(pol_obw-wymiary[2]))
             pola.append(trojkat)
 
         elif(len(wymiary) >= 4):
